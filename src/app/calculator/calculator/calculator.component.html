@@ -1,0 +1,19 @@
+<div class="input-group input-group-sm mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="input1">Số thứ 1</span>
+  </div>
+  <input #element1 type="number" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+</div>
+
+<div class="input-group input-group-sm mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="input2">Số thứ 2</span>
+  </div>
+  <input #element2 type="number" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+</div>
+<button (click)="calculator1(element1.value,element2.value)">Cộng</button>
+<button (click)="calculator2(element1.value,element2.value)">Trừ</button>
+<button (click)="calculator3(element1.value,element2.value)">Nhân</button>
+<button (click)="calculator4(element1.value,element2.value)">Chia</button>
+
+<h1>Result:{{result}}</h1>
