@@ -1,0 +1,6 @@
+<app-name-card cardName="{{nameCard.nameCard}}" email="{{nameCard.email}}" phone="{{nameCard.phone}}"></app-name-card>
+<!--Binding 1 chiều từ Component ra view-->
+<input type="text" [(ngModel)]="nameCard.nameCard" name="cardName" placeholder="cardName">
+<input type="text" [(ngModel)]="nameCard.email" name="email" placeholder="email">
+<input type="text" [(ngModel)]="nameCard.phone" name="phone" placeholder="phone">
+<!--Binding 2 chiều từ Component sang view và ngược lại-->

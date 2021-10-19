@@ -9,6 +9,12 @@ import { FontsizeComponent } from './font-size/fontsize/fontsize.component';
 import {FormsModule} from "@angular/forms";
 import { ImageComponent } from './image/image/image.component';
 import { CalculatorComponent } from './calculator/calculator/calculator.component';
+import { NameCardComponent } from './name-card/name-card/name-card.component';
+import { ListNameCardComponent } from './name-card/list-name-card/list-name-card.component';
+import { ProgressBarComponent } from './progress-bar/progress-bar/progress-bar.component';
+import { RatingBarComponent } from './rating-bar/rating-bar/rating-bar.component';
+import { CountdownTimerComponent } from './countdown-timer/countdown-timer/countdown-timer.component';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +23,12 @@ import { CalculatorComponent } from './calculator/calculator/calculator.componen
     NavbarComponent,
     FontsizeComponent,
     ImageComponent,
-    CalculatorComponent
+    CalculatorComponent,
+    NameCardComponent,
+    ListNameCardComponent,
+    ProgressBarComponent,
+    RatingBarComponent,
+    CountdownTimerComponent,
   ],
     imports: [
         BrowserModule,
